@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Yummy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="About">
+
+         Yummy all the time. \n
+        \n
+        Join us and fill your tummy.
+
+
+    </string>
+
+    <string name="create_new">
+        <u> Create New !!</u>
+    </string>
+
+
+    <string-array name="menu_list">
+
+        <item>Momo</item>
+        <item>Chowmein</item>
+        <item>Khaja</item>
+        <item>Pizza</item>
+        <item>Burger</item>
+        <item>Chicken chilly</item>
+        <item>Sukuti Sadeko</item>
+        <item>Sandwich</item>
+        <item>FingerChips</item>
+        <item>Grilled Chicken</item>
+        <item>Hot Wings</item>
+        <item>Pork Bbq</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

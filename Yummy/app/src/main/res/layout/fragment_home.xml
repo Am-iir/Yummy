@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="35dp"
+
+
+            >
+
+            <TextView
+                android:id="@+id/fragment_home_tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yummy restaurant"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/fragment_home_tv_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact: 1-234567"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/Black"
+                android:layout_marginBottom="10dp"
+
+
+                />
+
+            <ImageView
+
+                android:id="@+id/fragment_home_iv_mid"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/yummy" />
+
+            <TextView
+                android:id="@+id/fragment_home_tv_about"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/lightpink"
+                android:gravity="center"
+                android:text="@string/About"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
